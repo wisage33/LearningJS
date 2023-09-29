@@ -248,7 +248,7 @@ input:focus::-webkit-input-placeholder { color:transparent; }
     color: grey;
 }
 
-.watch_later button {
+.left_btn {
     position: absolute;
     bottom: -450px;
     left: 130px;
@@ -259,4 +259,10 @@ input:focus::-webkit-input-placeholder { color:transparent; }
     -webkit-backdrop-filter: blur(20px);
     background: transparent;
     border: none;
+    transform: translate(0);
+    transition: .3s ease;
+}
+
+.left_btn:hover {
+    transform: translate(-60px);
 }
